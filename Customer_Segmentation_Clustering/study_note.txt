@@ -1,0 +1,35 @@
+
+La fonction Python StandardScaler() est une fonction de prétraitement des données qui est utilisée en machine learning pour normaliser les données. La normalisation consiste à transformer les données de manière à ce qu'elles aient une moyenne de 0 et un écart-type de 1. Cela permet d'améliorer la performance des modèles d'apprentissage automatique, notamment des algorithmes de régression et de classification.
+
+La fonction StandardScaler() prend en entrée un tableau numpy ou pandas contenant les données à normaliser. Elle renvoie un nouveau tableau contenant les données normalisées.
+
+La fonction StandardScaler() est utilisée dans les cas suivants :
+
+Lorsque les données ont des échelles différentes. Par exemple, si les données contiennent des variables numériques avec des ordres de grandeur différents, telles que le prix d'un produit et le temps nécessaire pour préparer un repas, la normalisation permet de garantir que tous les attributs ont le même poids dans le modèle d'apprentissage automatique.
+Lorsque les données sont distribuées de manière non normale. La normalisation permet de transformer les données de manière à ce qu'elles suivent une distribution normale, ce qui est souvent une hypothèse des algorithmes d'apprentissage automatique.
+Lorsque les données contiennent des outliers. La normalisation permet de réduire l'influence des outliers sur le modèle d'apprentissage automatique.
+
+
+
+
+L'analyse en composantes principales (PCA) est une technique de réduction de dimensionnalité qui est utilisée en machine learning pour réduire le nombre de variables dans un ensemble de données tout en conservant le plus d'informations possible.
+
+La PCA fonctionne en projetant les données dans un espace de dimension inférieure, en préservant la variance maximale des données dans les nouvelles variables. Les nouvelles variables, appelées composantes principales, sont orthogonales les unes aux autres, ce qui signifie qu'elles ne sont pas corrélées entre elles.
+
+La PCA peut être utilisée à des fins variées en machine learning, notamment :
+
+Améliorer la performance des modèles d'apprentissage automatique. La PCA peut aider à améliorer la performance des modèles d'apprentissage automatique en réduisant le nombre de variables sur lesquelles ils doivent être entraînés. Cela peut être particulièrement utile lorsque les données ont un grand nombre de variables, ce qui peut rendre l'entraînement du modèle plus difficile et plus coûteux en temps de calcul.
+
+
+Rendre les données plus faciles à visualiser. La PCA peut être utilisée pour visualiser les données dans un espace de dimension inférieure, ce qui peut rendre les données plus faciles à comprendre et à analyser.
+
+Découvrir des structures cachées dans les données. La PCA peut être utilisée pour découvrir des structures cachées dans les données, telles que des corrélations entre les variables ou des groupes de données similaires.
+
+La PCA est une technique puissante qui peut être utilisée pour améliorer la performance des modèles d'apprentissage automatique et pour découvrir des structures cachées dans les données.
+
+Questions à se poser ? de combien de components devront ont réduire les dimensions ?
+ C A dire nous aurons combien de colonnes qui vont synthétiser toutes les colonnes de notre dataset ?
+
+ Questions à se poser combien de K elements doit on fixer quand on utilise la méthode Elbow
+
+ 
